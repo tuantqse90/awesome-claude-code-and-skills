@@ -1653,6 +1653,18 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [tuantqse90/moltnode-mcp](https://github.com/tuantqse90/moltnode-mcp) ![Stars](https://img.shields.io/github/stars/tuantqse90/moltnode-mcp?style=flat-square)
+  - MoltNode by Chord: hosted MCP server (`https://moltnode.ag/mcp`) that reads 31 blockchains over JSON-RPC
+  - DEX swap quotes and unsigned swap transactions via Chord, plus broadcast of transactions the user signed
+  - Claude Code plugin marketplace with three skills (moltnode, chord, chord-charts)
+  - MIT licensed stdio bridge for stdio-only clients
+
+- [getchordlabs/chord](https://github.com/getchordlabs/chord) ![Stars](https://img.shields.io/github/stars/getchordlabs/chord?style=flat-square)
+  - Hosted MCP server (`https://api.getchord.xyz/v1/mcp`) with 17 tools for DEX trading and market data
+  - Swap quotes and unsigned, simulated swap transactions on 7 EVM chains (Base, Monad, BNB Chain, Avalanche, Arbitrum, Robinhood Chain, Arc)
+  - Token boards, candles, trades, wallet PnL, smart money, holders and LP pools, plus Solana market data
+  - Non-custodial; MIT repo with the router contracts, stdio bridge, OpenAPI spec and Agent Skill
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
